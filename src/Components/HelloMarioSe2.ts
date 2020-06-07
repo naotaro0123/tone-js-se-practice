@@ -1,19 +1,19 @@
 import * as Tone from 'tone';
-import { NoteType } from '../models/Note';
+import { NoteType, getNote } from '../models/Note';
 import { ToneSequence } from '../models/ToneSequence';
 
 const damageSound: NoteType[] = [
-  { note: 'A3', dur: '8n', memo: 'ラ-1' },
-  { note: 'E3', dur: '8n', memo: 'ミ-1' },
-  { note: 'A2', dur: '8n', memo: 'ラ-2' },
+  { ...getNote('ra-1'), dur: '8n' },
+  { ...getNote('mi-1'), dur: '8n' },
+  { ...getNote('ra-2'), dur: '8n' },
   null,
-  { note: 'A3', dur: '8n', memo: 'ラ-1' },
-  { note: 'E3', dur: '8n', memo: 'ミ-1' },
-  { note: 'A2', dur: '8n', memo: 'ラ-2' },
+  { ...getNote('ra-1'), dur: '8n' },
+  { ...getNote('mi-1'), dur: '8n' },
+  { ...getNote('ra-2'), dur: '8n' },
   null,
-  { note: 'A3', dur: '8n', memo: 'ラ-1' },
-  { note: 'E3', dur: '8n', memo: 'ミ-1' },
-  { note: 'A2', dur: '8n', memo: 'ラ-2' },
+  { ...getNote('ra-1'), dur: '8n' },
+  { ...getNote('mi-1'), dur: '8n' },
+  { ...getNote('ra-2'), dur: '8n' },
   null,
 ];
 

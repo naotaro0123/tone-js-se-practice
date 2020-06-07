@@ -1,7 +1,7 @@
 {
-  "name": "tone-js-mario-bgm",
+  "name": "tone-js-web-audio-bgm",
   "version": "1.0.0",
-  "description": "tone.js x mario bgm",
+  "description": "tone.js x web audio bgm",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",

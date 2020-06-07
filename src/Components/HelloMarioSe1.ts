@@ -1,10 +1,10 @@
 import * as Tone from 'tone';
-import { NoteType } from '../models/Note';
+import { NoteType, getNote } from '../models/Note';
 import { ToneSequence } from '../models/ToneSequence';
 
 const coinSound: NoteType[] = [
-  { note: 'B5', dur: '8n', memo: 'ソ' },
-  { note: 'E6', dur: '4n', memo: 'シ' },
+  { ...getNote('si+1'), dur: '8n' },
+  { ...getNote('mi+2'), dur: '4n' },
 ];
 
 export function HelloMarioSe1() {

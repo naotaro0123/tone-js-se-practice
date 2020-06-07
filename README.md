@@ -1,5 +1,5 @@
-## tone-js-mario-bgm
-tone.js x mario bgm
+## tone-js-web-audio-bgm
+tone.js x web-audio bgm
 
 ## Build Setup
 use node v13.2.0
@@ -18,3 +18,6 @@ $ yarn build
 $ yarn lint
 
 ```
+
+## Reference Note
+[次世代宴会芸：「スーパーマリオのテーマ」をピアノで弾くための楽譜とコツ](https://dailynewsagency.com/2010/10/02/super_mario_music/)
