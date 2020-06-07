@@ -1,4 +1,4 @@
-## tone-js-web-audio-bgm
+## tone-js-se-practice
 tone.js x web-audio bgm
 
 ## Build Setup
@@ -20,4 +20,6 @@ $ yarn lint
 ```
 
 ## Reference Note
-[次世代宴会芸：「スーパーマリオのテーマ」をピアノで弾くための楽譜とコツ](https://dailynewsagency.com/2010/10/02/super_mario_music/)
+[次世代宴会芸：「スーパーマリオのテーマ」をピアノで弾くための楽譜とコツ](https://dailynewsagency.com/2010/10/02/super_mario_music/)  
+
+[Tone.jsを使えば音楽知識ゼロの私でも簡単に作曲して遊べた！](https://qiita.com/okumurakengo/items/52d1cdd08e705451e1d8)  
